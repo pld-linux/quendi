@@ -1,7 +1,7 @@
 Summary:	electronics conversations
 Summary(pl):	elektroniczne konwersacje
 Name:		quendi
-Version:	1.0.1
+Version:	1.0.2
 Release:	1
 License:	GPL
 Group:		Applications/Games
@@ -42,3 +42,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc *.gz
 %attr(755,root,root) %{_bindir}/*
 %{_datadir}/*
+%{_applnkdir}/Games/*
+%{_pixmapsdir}/*
