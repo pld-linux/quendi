@@ -2,10 +2,11 @@ Summary:	electronics conversations
 Summary(pl):	elektroniczne konwersacje
 Name:		quendi
 Version:	1.0.2
-Release:	2
+Release:	3
 License:	GPL
 Group:		Applications/Games
 Source0:	ftp://aleph-0.dhs.org/people/loth/%{name}-%{version}.tar.gz
+Patch0:		%{name}-types.patch
 BuildRequires:	slang-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -14,12 +15,13 @@ Quendi is ideology, but you can treat it like a game. That is useful
 to have a conversations with androids and make electronics people. :)
 
 %description -l pl
-Projekt pokazuj±cy ¿e grafika nie jest czym¶ koniecznym. ideologiczna
+Projekt pokazuj±cy ¿e grafika nie jest czym¶ koniecznym. Ideologiczna
 rozmowa z androidem przeklête tworzenie elektronicznych postaci w
 krainie ia. Nic specjalnego je¿eli traktujesz to jak grê.
 
 %prep
 %setup -q
+%patch -p1
 
 %build
 %configure
