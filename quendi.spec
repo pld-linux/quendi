@@ -1,7 +1,7 @@
 Summary:	electronics conversations
 Summary(pl):	elektroniczne konwersacje
 Name:		quendi
-Version:	1.0.0
+Version:	1.0.1
 Release:	1
 License:	GPL
 Group:		Applications/Games/Text
