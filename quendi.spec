@@ -4,7 +4,9 @@ Name:		quendi
 Version:	1.0.1
 Release:	1
 License:	GPL
-Group:		Applications/Games/Text
+Group:		Applications/Games
+Group(de):	Applikationen/Spiele
+Group(pl):	Aplikacje/Gry
 Source0:	ftp://aleph-0.dhs.org/people/loth/%{name}-%{version}.tar.gz
 BuildRequires:	slang-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -27,6 +29,7 @@ krainie ia. Nic specjalnego je¿eli traktujesz to jak grê.
 
 %install
 rm -rf $RPM_BUILD_ROOT
+
 %{__make} install DESTDIR=$RPM_BUILD_ROOT 
 
 gzip -9nf README ChangeLog AUTHORS
