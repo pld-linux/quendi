@@ -28,7 +28,7 @@ krainie ia. Nic specjalnego je¿eli traktujesz to jak grê.
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT 
+%{__make} install DESTDIR=$RPM_BUILD_ROOT
 
 gzip -9nf README ChangeLog AUTHORS
 
