@@ -5,8 +5,6 @@ Version:	1.0.2
 Release:	1
 License:	GPL
 Group:		Applications/Games
-Group(de):	Applikationen/Spiele
-Group(pl):	Aplikacje/Gry
 Source0:	ftp://aleph-0.dhs.org/people/loth/%{name}-%{version}.tar.gz
 BuildRequires:	slang-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
