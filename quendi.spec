@@ -6,6 +6,7 @@ Release:	3
 License:	GPL
 Group:		Applications/Games
 Source0:	ftp://aleph-0.dhs.org/people/loth/%{name}-%{version}.tar.gz
+# Source0-md5:	5a6b5daaed703cead74a22089f1c5c55
 Patch0:		%{name}-types.patch
 BuildRequires:	slang-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
