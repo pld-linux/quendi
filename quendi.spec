@@ -2,7 +2,7 @@ Summary:	electronics conversations
 Summary(pl):	elektroniczne konwersacje
 Name:		quendi
 Version:	1.0.2
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Games
 Source0:	ftp://aleph-0.dhs.org/people/loth/%{name}-%{version}.tar.gz
@@ -30,14 +30,12 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
 
-gzip -9nf README ChangeLog AUTHORS
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc README ChangeLog AUTHORS
 %attr(755,root,root) %{_bindir}/*
 %{_datadir}/*
 %{_applnkdir}/Games/*
