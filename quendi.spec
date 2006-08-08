@@ -22,7 +22,7 @@ krainie ia. Nic specjalnego je¿eli traktujesz to jak grê.
 
 %prep
 %setup -q
-%patch -p1
+%patch0 -p1
 
 %build
 %configure
