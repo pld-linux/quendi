@@ -1,5 +1,5 @@
 Summary:	electronics conversations
-Summary(pl):	elektroniczne konwersacje
+Summary(pl.UTF-8):   elektroniczne konwersacje
 Name:		quendi
 Version:	1.0.2
 Release:	3
@@ -15,10 +15,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Quendi is ideology, but you can treat it like a game. That is useful
 to have a conversations with androids and make electronics people. :)
 
-%description -l pl
-Projekt pokazuj±cy ¿e grafika nie jest czym¶ koniecznym. Ideologiczna
-rozmowa z androidem przeklête tworzenie elektronicznych postaci w
-krainie ia. Nic specjalnego je¿eli traktujesz to jak grê.
+%description -l pl.UTF-8
+Projekt pokazujÄ…cy Å¼e grafika nie jest czymÅ› koniecznym. Ideologiczna
+rozmowa z androidem przeklÄ™te tworzenie elektronicznych postaci w
+krainie ia. Nic specjalnego jeÅ¼eli traktujesz to jak grÄ™.
 
 %prep
 %setup -q
