@@ -1,5 +1,5 @@
 Summary:	electronics conversations
-Summary(pl.UTF-8):   elektroniczne konwersacje
+Summary(pl.UTF-8):	elektroniczne konwersacje
 Name:		quendi
 Version:	1.0.2
 Release:	3
